@@ -1,0 +1,295 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+
+* {
+  font-family: 'Be Vietnam', sans-serif;
+}
+ 
+section {
+  padding: 150px 0;
+}
+
+.bg-primary {
+  background-color: #1313133b !important;
+}
+
+.bg-light {
+  background-color: #118f69 !important;
+}
+
+.bg-dark {
+  background-color: #0d6b4f !important;
+}
+
+.navbar-color {
+  background-color: #118f69 !important;
+}
+
+.footer-color {
+  background-color: #118f69 !important;
+}
+
+.nav-item {
+  margin: 1em;
+  transition: 0.2s;
+  text-align: center;
+  width: 8em;
+  height: 2.8em;
+  border-radius: 0.3em;
+}
+
+.nav-item:hover {
+  background-color: rgb(0, 66, 57);
+  border-radius: 0.7em;
+  width: 8em;
+  transition: 0.2s;
+  color: white;
+  height: 100%:
+  text-align: left;
+}
+
+.navbar-brand {
+  font-size: 2em;
+}
+
+#tjanster li {
+  font-size: 1.2em;
+}
+
+
+.material-icons {
+  padding-right: 0.3em;
+  font-size: 1.3em;
+}
+
+.btn-primary {
+  background-color: #118f69;
+  border: none;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background-color: #1acc97;
+  border: none;
+  color: white !important;
+}
+
+.fa {
+  font-size: 2em !important;
+  padding-top: 0.2em;
+  color: white;
+}
+
+.socholder {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+body {
+  opacity: 1;
+  transition: 1.4s opacity;
+}
+body.fade-out {
+  opacity: 0;
+  transition: none;
+}
+
+html {
+  background-color: black;
+}
+
+
+
+#kontakt {
+  position: relative;
+  color: white;
+  background-color: black;
+  height: 30vh;
+  min-height: 55rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+#kontakt video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#mainNav {
+  -webkit-box-shadow: 0px 4px 21px 0px rgba(0,0,0,0.45);
+  -moz-box-shadow: 0px 4px 21px 0px rgba(0,0,0,0.45);
+  box-shadow: 0px 4px 21px 0px rgba(0,0,0,0.45);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+#omoss a {
+  transition: 0.2s;
+  color: white;
+  background-color: #063b2b33;
+  border-radius: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.2em;
+  font-size: 1.1em;
+}
+
+#omoss li {
+  padding-top: 1em;
+  list-style: none
+}
+
+#omoss a:hover {
+  transition: 0.2s;
+  color: white;
+  background-color: #063b2bf6;
+  border-radius: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.2em;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+footer a {
+  transition: 0.2s;
+  color: white;
+  background-color: #063b2b27;
+  border-radius: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.2em;
+}
+
+footer a:hover {
+  transition: 0.2s;
+  color: white;
+  background-color: #063b2bf6;
+  border-radius: 0.5em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.2em;
+  text-decoration: none;
+}
+
+.kontaktformular label {
+  margin-top: 0.5em;
+}
+
+
+
+#contact input {
+  height: 4vh;
+  width: 32.9%;
+  resize:none;
+  background-color: rgba(0, 0, 0, 0.144);
+  outline: none;
+  border: none;
+  border-radius: 0.7em;
+  padding: 1em;
+  color: white;
+  margin-top: 0.4em;
+}
+
+#contact textarea {
+  margin-top: 0.4em;
+  height: 20vh;
+  width: 100%;
+  resize:none;
+  background-color: rgba(0, 0, 0, 0.144);
+  outline: none;
+  border: none;
+  border-radius: 0.7em;
+  padding: 1em;
+  color: white;
+}
+
+#contact-submit {
+    transition: 0.2s;
+    padding: 0 !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    height: 2.6em;
+    background-color: #118f69 !important;
+}
+
+#contact-submit:hover {
+  transition: 0.2s;
+  background-color: #0b5f46 !important;
+}
+
+header .overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #118f69f5;
+  z-index: 1;
+}
