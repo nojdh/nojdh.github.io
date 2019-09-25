@@ -48,8 +48,6 @@ section {
   width: 8em;
   transition: 0.2s;
   color: white;
-  height: 100%:
-  text-align: left;
 }
 
 .navbar-brand {
@@ -133,7 +131,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    background:  url(../novideo.jpg) black no-repeat center center scroll;
   }
   header video {
     display: none;
@@ -215,6 +213,7 @@ html {
   font-size: 1.1em;
   text-decoration: none;
 }
+
 footer a {
   transition: 0.2s;
   color: white;
@@ -244,7 +243,6 @@ footer a:hover {
 
 #contact input {
   height: 4vh;
-  width: 32.9%;
   resize:none;
   background-color: rgba(0, 0, 0, 0.144);
   outline: none;
@@ -253,6 +251,7 @@ footer a:hover {
   padding: 1em;
   color: white;
   margin-top: 0.4em;
+  width: 32.9%;
 }
 
 #contact textarea {
@@ -274,14 +273,14 @@ footer a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 33%;
-    height: 2.6em;
-    background-color: #118f69 !important;
+    height: 2.6em;    
+    width: 100% !important;
+    background-color: #0b5f46 !important;
 }
 
 #contact-submit:hover {
   transition: 0.2s;
-  background-color: #0b5f46 !important;
+  background-color: #118f69 !important;
 }
 
 header .overlay2 {
@@ -298,11 +297,14 @@ header .overlay2 {
   padding-top: 4em;
 }
 
+.card-deck {
+  width: 66%
+}
+
 .card {
   background-color: #0b5f46;
 }
 .card-body {
-  background-color: #0b5f46 !important;
   border: none;
   border-radius: 1em;
   border-style: none !important;
@@ -310,4 +312,10 @@ header .overlay2 {
 
 #merinfo {
   padding-top: 5em;
+}
+
+hr {
+  width: 100%;
+  color: #6699FF;
+  size: 6;
 }
