@@ -249,7 +249,7 @@ footer a:hover {
   background-color: rgba(0, 0, 0, 0.144);
   outline: none;
   border: none;
-  border-radius: 0.7em;
+  border-radius: 0.4em;
   padding: 1em;
   color: white;
   margin-top: 0.4em;
@@ -263,7 +263,7 @@ footer a:hover {
   background-color: rgba(0, 0, 0, 0.144);
   outline: none;
   border: none;
-  border-radius: 0.7em;
+  border-radius: 0.4em;
   padding: 1em;
   color: white;
 }
@@ -292,4 +292,22 @@ header .overlay2 {
   width: 100%;
   background-color: #118f69f5;
   z-index: 1;
+}
+
+#arbetare {
+  padding-top: 4em;
+}
+
+.card {
+  background-color: #0b5f46;
+}
+.card-body {
+  background-color: #0b5f46 !important;
+  border: none;
+  border-radius: 1em;
+  border-style: none !important;
+}
+
+#merinfo {
+  padding-top: 5em;
 }
