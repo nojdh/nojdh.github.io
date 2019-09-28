@@ -239,24 +239,30 @@ footer a:hover {
   margin-top: 0.5em;
 }
 
-
-
 #contact input {
-  height: 4vh;
+  height: 2.6em;
   resize:none;
   background-color: rgba(0, 0, 0, 0.144);
   outline: none;
   border: none;
   border-radius: 0.4em;
   padding: 1em;
-  color: white;
+  color: white !important;
   margin-top: 0.4em;
-  width: 32.9%;
+  width: 100%;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#telefonnummer, #epost, #namn, #amne {
+  width: 49.4% !important;
 }
 
 #contact textarea {
   margin-top: 0.4em;
-  height: 20vh;
+  height: 30vh;
   width: 100%;
   resize:none;
   background-color: rgba(0, 0, 0, 0.144);
@@ -273,7 +279,7 @@ footer a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 2.6em;    
+    height: 2.6em !important;    
     width: 100% !important;
     background-color: #0b5f46 !important;
 }
