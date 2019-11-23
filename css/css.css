@@ -321,7 +321,7 @@ hr {
 
 
 #galleriholder{
-  margin-top: 4em;
+  margin-top: 3em;
   position:relative;
   background-color: #0d6b4f;
   padding: 1em; 
@@ -345,6 +345,30 @@ hr {
   }
   
   .gall a:hover {
+    transition: 0.2s;
+    color: white;
+    background-color: #063b2bf6;
+    border-radius: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.2em;
+    font-size: 1.1em;
+    text-decoration: none;
+  }
+
+
+  .kontaktar a {
+    transition: 0.2s;
+    color: white;
+    background-color: #063b2b33;
+    border-radius: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.2em;
+    font-size: 1.1em;
+  }
+  
+  .kontaktar a:hover {
     transition: 0.2s;
     color: white;
     background-color: #063b2bf6;
