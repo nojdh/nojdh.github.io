@@ -299,7 +299,7 @@ header .overlay2 {
 
 
 .card {
-  background-color: #118f69f5;
+  background-color: #118f69f5 !important;
   border: none;
 }
 
