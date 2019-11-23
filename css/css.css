@@ -39,13 +39,11 @@ section {
   text-align: center;
   width: 8em;
   height: 2.8em;
-  border-radius: 0.3em;
+  border-radius: 0.7em;
 }
 
 .nav-item:hover {
-  background-color: rgb(0, 66, 57);
-  border-radius: 0.7em;
-  width: 8em;
+  background-color: #0000002c;
   transition: 0.2s;
   color: white;
 }
@@ -242,7 +240,7 @@ footer a:hover {
 #contact input {
   height: 2.6em;
   resize:none;
-  background-color: rgba(0, 0, 0, 0.144);
+  background-color: #0b5f46;
   outline: none;
   border: none;
   border-radius: 0.4em;
@@ -257,15 +255,15 @@ footer a:hover {
 }
 
 #telefonnummer, #epost, #namn, #amne {
-  width: 49.4% !important;
+  width: 49.35% !important;
 }
 
 #contact textarea {
   margin-top: 0.4em;
   height: 30vh;
-  width: 100%;
+  width: 99.8%;
   resize:none;
-  background-color: rgba(0, 0, 0, 0.144);
+  background-color: #0b5f46;
   outline: none;
   border: none;
   border-radius: 0.4em;
@@ -279,14 +277,14 @@ footer a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 2.6em !important;    
+    height: 2.8em !important;    
     width: 100% !important;
     background-color: #0b5f46 !important;
 }
 
 #contact-submit:hover {
   transition: 0.2s;
-  background-color: #118f69 !important;
+  background-color: #117e5d !important;
 }
 
 header .overlay2 {
@@ -299,25 +297,20 @@ header .overlay2 {
   z-index: 1;
 }
 
-#arbetare {
-  padding-top: 4em;
-}
-
-.card-deck {
-  width: 66%
-}
 
 .card {
-  background-color: #0b5f46;
-}
-.card-body {
+  background-color: #118f69f5;
   border: none;
-  border-radius: 1em;
-  border-style: none !important;
 }
+
+.card-body {
+  max-height: 10em;
+}
+
 
 #merinfo {
   padding-top: 5em;
+  text-align: center;
 }
 
 hr {
@@ -325,3 +318,40 @@ hr {
   color: #6699FF;
   size: 6;
 }
+
+
+#galleriholder{
+  margin-top: 4em;
+  position:relative;
+  background-color: #0d6b4f;
+  padding: 1em; 
+  border-radius: 0.4em;
+  border: 8px ridge #0d6b4f44;
+  box-shadow: navy;
+  -webkit-box-shadow: inset 0px 14px 15px -5px #00000018; 
+  box-shadow: inset 0px 14px 15px -5px #00000018; 
+  }
+
+
+  .gall a {
+    transition: 0.2s;
+    color: white;
+    background-color: #063b2b33;
+    border-radius: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.2em;
+    font-size: 1.1em;
+  }
+  
+  .gall a:hover {
+    transition: 0.2s;
+    color: white;
+    background-color: #063b2bf6;
+    border-radius: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.2em;
+    font-size: 1.1em;
+    text-decoration: none;
+  }
