@@ -1,10 +1,3 @@
-/*!
- * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
- */
-
-
 * {
   font-family: 'Be Vietnam', sans-serif;
 }
@@ -187,7 +180,7 @@ html {
 #omoss a {
   transition: 0.2s;
   color: white;
-  background-color: #063b2b33;
+  background-color: #125a45;
   border-radius: 0.5em;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -203,7 +196,7 @@ html {
 #omoss a:hover {
   transition: 0.2s;
   color: white;
-  background-color: #063b2bf6;
+  background-color: #125a45;
   border-radius: 0.5em;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -215,7 +208,7 @@ html {
 footer a {
   transition: 0.2s;
   color: white;
-  background-color: #063b2b27;
+  background-color: #197257;
   border-radius: 0.5em;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -225,7 +218,7 @@ footer a {
 footer a:hover {
   transition: 0.2s;
   color: white;
-  background-color: #063b2bf6;
+  background-color: #125a45;
   border-radius: 0.5em;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -293,13 +286,13 @@ header .overlay2 {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #118f69f5;
+  background-color: #118f69;
   z-index: 1;
 }
 
 
 .card {
-  background-color: #118f69f5 !important;
+  background-color: #118f69 !important;
   border: none;
 }
 
@@ -326,17 +319,14 @@ hr {
   background-color: #0d6b4f;
   padding: 1em;
   border-radius: 0.4em;
-  border: 8px ridge #0d6b4f44;
-  box-shadow: navy;
-  -webkit-box-shadow: inset 0px 14px 15px -5px #00000018;
-  box-shadow: inset 0px 14px 15px -5px #00000018;
+  border: 0.5em ridge #0d6b4f;
   }
 
 
   .gall a {
     transition: 0.2s;
     color: white;
-    background-color: #063b2b33;
+    background-color: #125a45;
     border-radius: 0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -347,7 +337,7 @@ hr {
   .gall a:hover {
     transition: 0.2s;
     color: white;
-    background-color: #063b2bf6;
+    background-color: #125a45;
     border-radius: 0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -360,7 +350,7 @@ hr {
   .kontaktar a {
     transition: 0.2s;
     color: white;
-    background-color: #063b2b33;
+    background-color: #125a45;
     border-radius: 0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -371,7 +361,7 @@ hr {
 .kontaktar a:hover {
     transition: 0.2s;
     color: white;
-    background-color: #063b2bf6;
+    background-color: rgb(13, 87, 65);
     border-radius: 0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
