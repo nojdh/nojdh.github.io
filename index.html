@@ -16,30 +16,9 @@
 </head>
 
 <body id="page-top">
-    <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
-    <script>
-        window.fbAsyncInit = function() {
-            FB.init({
-                appId            : '938134089903291',
-                autoLogAppEvents : true,
-                xfbml: true,
-                version: 'v5.0'
-            });
-        };
-
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = 'https://connect.facebook.net/sv_SE/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-    <!-- Customer chat code -->
+    <script src="fbchat.js"></script>
     <div class="fb-customerchat" attribution=setup_tool page_id="102912337851969" theme_color="#118f69" logged_in_greeting="Hej! Hur kan vi hjälpa dig idag?" logged_out_greeting="Hej! Om du loggar in med Facebook kan du skriva direkt till oss!"></div>
-
     <script>
         document.body.className += ' fade-out';
     </script>
@@ -56,7 +35,7 @@
                     <li class="nav-item"> <a class="nav-link js-scroll-trigger text-white" href="#tjanster">Tjänster</a>
                     </li>
                     <li class="nav-item"> <a class="nav-link js-scroll-trigger text-white" href="#omoss">Om oss</a>
-                    </li>                
+                    </li>
 					<li class="nav-item"> <a class="nav-link js-scroll-trigger text-white" href="#galleri">Galleri</a>
 					</li>
 					<li class="nav-item"> <a class="nav-link js-scroll-trigger text-white" href="#kontakt">Kontakt</a>
@@ -82,7 +61,7 @@
         <div class="container text-white">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-					<h2>Våra tjänster</h2>					
+					<h2>Våra tjänster</h2>
 						<div class="container">
                         <p class="lead">Vi erbjuder diverse tjänster inom bygg och montage, till exempel:</p>
                         <h4>Renovering</h4>
@@ -117,30 +96,30 @@
 								<div class="card">
 								  <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
 								  <div class="card-body text-center">
-									
+
 									<h4 class="card-title">Rasmus</h4>
-									<h7 class="card-text">Ägare</h7>								
+									<h7 class="card-text">Ägare</h7>
 								   </div>
 								</div>
-							  </div>	
+							  </div>
 						  <!-- Team Member 2 -->
 						  <div class="col-xl-5 mx-auto" style="padding-top: 1em;">
 								<div class="card">
 								  <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
 								  <div class="card-body text-center">
-									
+
 									<h4 class="card-title">Janne</h4>
-									<h7 class="card-text">Snickare</h7>								
+									<h7 class="card-text">Snickare</h7>
 								   </div>
 								</div>
-							  </div>				
+							  </div>
 						</div>
 					  </div>
 
                     <div class="col-lg-8 mx-auto">
                         <div class="container">
 
-                          
+
                         </div>
                     </div>
                 </div>
@@ -154,11 +133,11 @@
 								<p class="bread">För fler bilder kolla gärna in vår <a href="https://instagram.com/byggmont">Instagram</a>.</p>		</div>
 						</div>
 					<div class="col-lg-10 mx-auto">
-							<div id="galleriholder">						
+							<div id="galleriholder">
 		<script src="https://snapwidget.com/js/snapwidget.js"></script>
 		<a href="https://instagram.com"><iframe src="https://snapwidget.com/embed/763218" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; pointer-events: none; "></iframe></div>
 		</a></div>
-					
+
 		</section>
 	 <section id="kontakt" class="bg-dark">
         <div class="container text-white">
@@ -167,8 +146,8 @@
                     <h2>Kontakta oss</h2>
                     <div class="container kontaktar">
                         <p class="lead">Skriv via <a href="https://m.me/102912337851969?fbclid=IwAR0Q0Oqo8PgiqZgq7oyxebpXPEFKyr8Oz-8EdducH85nTK9r0YiCer9BrRc">Facebook-chatten</a> eller använd formuläret nedan.</p>
-						<p class="bread">Vid brådskande frågor ring +46 768 935 436</p>					 
-				
+						<p class="bread">Vid brådskande frågor ring +46 768 935 436</p>
+
 											<script type="text/javascript">
 												var submitted = false;
 											</script>
@@ -181,7 +160,7 @@
 												<textarea placeholder="Ditt meddelande" name="entry.2131010113" id="" cols="30" rows="10"></textarea>
 												<input id="contact-submit" type="submit" value="Skicka meddelande" />
 											</form>
-                       
+
                     </div>
                 </div>
             </div>
@@ -191,7 +170,7 @@
             <div class="row mt-2">
                 <div class="col-lg-2 col-xl-3 mx-auto mb-4">
                     <h6 class="text-uppercase font-weight-bold">KONTAKT</h6>
-                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 5em;">				
+                    <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 5em;">
 					<p><a href="https://m.me/102912337851969?fbclid=IwAR0Q0Oqo8PgiqZgq7oyxebpXPEFKyr8Oz-8EdducH85nTK9r0YiCer9BrRc">Facebook-DM</a>
 					</p>
 					<p><a href="mailto:Kontakt@byggmont.se">Kontakt@byggmont.se</a>
@@ -200,7 +179,7 @@
 				<div class="col-lg-2 col-xl-3 mx-auto mb-md-0 mb-4">
 						<h6 class="text-uppercase font-weight-bold">ADRESS</h6>
 						<hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 5em;">
-						<p>Byggatan 1</p>                    
+						<p>Byggatan 1</p>
 						<p>58251 Motala</p>
 					</div>
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -211,8 +190,8 @@
 					<p><a href="https://facebook.com/byggmont">Facebook</a>
                     </p>
                     <p><a href="https://instagram.com/byggmont">Instagram</a>
-                    </p>-->        
-                </div>               
+                    </p>-->
+                </div>
             </div>
         </div>
     </footer>

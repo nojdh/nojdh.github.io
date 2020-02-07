@@ -379,16 +379,3 @@ hr {
     font-size: 1.1em;
     text-decoration: none;
   }
-
-._j68 {
-    background-color: #118f69 !important;
-}
-
-._j68 .promptHeaderAndBubbleContainer .promptTextBubble {
-  background:#148261 !important;
-  color: white !important;
-}
-
-._j68 .promptHeaderAndBubbleContainer .promptHeaderText {
-  color: rgba(255, 255, 255, 0) !important;
-}
