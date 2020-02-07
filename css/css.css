@@ -8,7 +8,7 @@
 * {
   font-family: 'Be Vietnam', sans-serif;
 }
- 
+
 section {
   padding: 150px 0;
 }
@@ -277,7 +277,7 @@ footer a:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 2.8em !important;    
+    height: 2.8em !important;
     width: 100% !important;
     background-color: #0b5f46 !important;
 }
@@ -324,12 +324,12 @@ hr {
   margin-top: 3em;
   position:relative;
   background-color: #0d6b4f;
-  padding: 1em; 
+  padding: 1em;
   border-radius: 0.4em;
   border: 8px ridge #0d6b4f44;
   box-shadow: navy;
-  -webkit-box-shadow: inset 0px 14px 15px -5px #00000018; 
-  box-shadow: inset 0px 14px 15px -5px #00000018; 
+  -webkit-box-shadow: inset 0px 14px 15px -5px #00000018;
+  box-shadow: inset 0px 14px 15px -5px #00000018;
   }
 
 
@@ -343,7 +343,7 @@ hr {
     padding-bottom: 0.2em;
     font-size: 1.1em;
   }
-  
+
   .gall a:hover {
     transition: 0.2s;
     color: white;
@@ -367,8 +367,8 @@ hr {
     padding-bottom: 0.2em;
     font-size: 1.1em;
   }
-  
-  .kontaktar a:hover {
+
+.kontaktar a:hover {
     transition: 0.2s;
     color: white;
     background-color: #063b2bf6;
@@ -379,3 +379,16 @@ hr {
     font-size: 1.1em;
     text-decoration: none;
   }
+
+._j68 {
+    background-color: #118f69;
+}
+
+._j68 .promptHeaderAndBubbleContainer .promptTextBubble {
+  background:#148261;
+  color: white;
+}
+
+._j68 .promptHeaderAndBubbleContainer .promptHeaderText {
+  color: rgba(255, 255, 255, 0);
+}
